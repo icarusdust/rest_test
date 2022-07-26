@@ -1,8 +1,8 @@
 curl -H "Content-Type: application/json" -H "x-auth-token: UjW3noRBwGnyBlOOfHhc8suwuNZmhT4XP7SaeXV-Z7c" \
 --data '{
-    "appId": "5faaaca7e55b87f29c8f246b", 
-    "workflowId": "ios-release",
-    "branch": "flavors", 
+    "appId": "62df95ab77328efbfac6b305", 
+    "workflowId": "ios-workflow",
+    "branch": "master", 
     "environment": { 
         "variables": { 
             "APP_STORE_ID": "1565355012",
@@ -14,3 +14,5 @@ curl -H "Content-Type: application/json" -H "x-auth-token: UjW3noRBwGnyBlOOfHhc8
     }
 }' \
 https://api.codemagic.io/builds
+
+
